@@ -1,10 +1,8 @@
 import pandas as pd
-import openpyxl
 import os
 import shutil 
 from datetime import datetime, timedelta
 from openpyxl import Workbook, load_workbook
-from openpyxl.styles import Font
 from collections import defaultdict
 
 # Načtení Excelu do pandas DataFrame s pomocí openpyxl pro práci se styly
